@@ -1,8 +1,12 @@
-in laravel, add provider in `config/app.php`:
+in laravel `config/app.php` providers add:
 
 `'Unamatasanatarai\ShortURL\ShortURLServiceProvider'`
 
+then run:
+
 `php artisan vendor:publish`
+
+then use:
 
 `\Unamatasanatarai\ShortURL\ShortURL::makeHash('http://...');`
 
