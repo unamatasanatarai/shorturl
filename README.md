@@ -4,7 +4,9 @@ in laravel `config/app.php` providers add:
 
 then run:
 
-`php artisan vendor:publish`
+`$ php artisan vendor:publish`
+
+`$ php artisan migrate`
 
 then use:
 
