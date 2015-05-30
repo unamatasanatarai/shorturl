@@ -19,6 +19,8 @@ class CreateUrlShortenerTable extends Migration
             $table->string('hash', 10);
             $table->integer('count')->unsigned()->default(0);
             $table->timestamps();
+            $table->unique('hash');
+            $table->unique('url');
         });
     }
 
