@@ -11,7 +11,7 @@ class ShortURLServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        include __DIR__ . '/ShortURL.php';
     }
 
     /**

@@ -18,5 +18,8 @@
             "Unamatasanatarai\\ShortURL\\": "src/Unamatasanatarai/ShortURL"
         }
     },
+    "require": {
+        "hashids/hashids": "1.0.*@dev"
+    },
     "minimum-stability": "dev"
 }
