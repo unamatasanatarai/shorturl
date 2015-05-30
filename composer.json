@@ -1,0 +1,22 @@
+{
+    "name": "unamatasanatarai/shorturl",
+    "type": "library",
+    "description": "URL Shortening package",
+    "homepage": "https://github.com/unamatasanatarai/shorturl",
+    "keywords": ["laravel","url","url shortener","link"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Unamata Sanatarai",
+            "email": "unamatasanatarai@gmail.com",
+            "homepage": "http://www.compelo.com/",
+            "role": "Main Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Unamatasanatarai\\ShortURL\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
