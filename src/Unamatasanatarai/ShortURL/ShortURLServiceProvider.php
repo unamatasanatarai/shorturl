@@ -11,7 +11,6 @@ class ShortURLServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        include __DIR__ . '/ShortURL.php';
         // remember to run `php artisan vendor:publish`
         $this->publishes([
             realpath(__DIR__ . '/migrations') => $this->app->databasePath() . '/migrations',
